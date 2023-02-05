@@ -1,0 +1,32 @@
+.pagination {
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255 247 237);
+  width: 100%;
+  padding: 20px 10px;
+  margin: 0;
+  list-style: none;
+}
+
+.pagination a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid rgb(255 247 237);
+  border-radius: 5px;
+  margin: 0 4px;
+  font-size: 10px;
+  background-color: #f69207;
+  color: #1c1e29;
+  text-decoration: none;
+  padding: 10px 12px;
+}
+
+.pagination a :hover {
+  background-color: #f69207;
+  color: #f69207;
+}
